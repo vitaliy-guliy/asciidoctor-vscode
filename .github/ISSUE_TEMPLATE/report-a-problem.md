@@ -15,7 +15,17 @@ A clear and concise description of what the issue is.
 
 ## System Information
 
-You can find the VSCode and OS information under Help -> About. To check the extension information go to the extension browser (CTRL+SHIFT+X, Mac CMD+SHIFT+X).
+You can find the VS Code and OS information under "Help" -> "About". Then, click on "Copy" and paste the result below:
+
+```
+
+```
+
+To check the extension information go to the "Extensions" view using `Ctrl`+`Shift`+`X` or `Cmd`+`Shift`+`X` on macOS.
+
+```
+
+```
 
 ## To Reproduce
 
