@@ -46,6 +46,10 @@
 		"languages": [
 			{
 				"id": "asciidoc",
+				"icon": {
+					"light": "./images/AsciiDoc-icon-color.svg",
+					"dark": "./images/AsciiDoc-icon-color.svg"
+				},
 				"aliases": [
 					"AsciiDoc",
 					"Asciidoctor"
