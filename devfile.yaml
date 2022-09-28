@@ -2,19 +2,13 @@ schemaVersion: 2.1.0
 metadata:
   name: asciidoctor-vscode
 components:
-  - attributes:
+  - name: tools
+    attributes:
       che-theia.eclipse.org/vscode-extensions:
         - https://open-vsx.org/api/asciidoctor/asciidoctor-vscode/2.8.7/file/asciidoctor.asciidoctor-vscode-2.8.7.vsix
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
-      endpoints:
-        - exposure: public
-          name: nodejs
-          protocol: http
-          targetPort: 3000
-      memoryLimit: 1G
       mountSources: true
-    name: tools
 commands:
   - id: hello-world
     exec:
